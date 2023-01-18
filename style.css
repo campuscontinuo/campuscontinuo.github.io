@@ -1,0 +1,55 @@
+@font-face {
+  font-family: titulos;
+  src: url(Fonts/KdamThmorPro-Regular.ttf);
+}
+
+@font-face {
+  font-family: parrafos;
+  src: url(Fonts/Arvo-Regular.ttf);
+}
+
+@font-face {
+  font-family: titulos-texto;
+  src: url(Fonts/Arvo-BoldItalic.ttf);
+}
+
+body{
+  background-color: #191919;
+}
+
+h1{
+  font-family: titulos;
+  color: #FFFFFF;
+}
+
+h2{
+  font-family: titulos;
+}
+
+h3{
+  font-family: titulos-texto;
+}
+
+p{
+  font-family: parrafos;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.3%;
+  padding: 10px;
+  height: 500px;
+  overflow-y: scroll;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
