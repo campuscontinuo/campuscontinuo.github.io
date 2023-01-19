@@ -1,6 +1,6 @@
 @font-face {
   font-family: titulos;
-  src: url(Fonts/KdamThmorPro-Regular.ttf);
+  src: url(Fonts/Unbounded-SemiBold.ttf);
 }
 
 @font-face {
@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: titulos-texto;
-  src: url(Fonts/Arvo-BoldItalic.ttf);
+  src: url(Fonts/Unbounded-ExtraLight.ttf);
 }
 
 body{
@@ -24,7 +24,7 @@ h1{
 }
 
 h2{
-  font-family: titulos;
+  font-family: titulos-texto;
 }
 
 h3{
@@ -156,7 +156,6 @@ p{
 
   .Autor{
     display: contents;
-    margin-bottom: 20px;
   }
 
   .TxtAutor{
@@ -218,14 +217,15 @@ p{
 .Titulomovil{
   position: fixed;
   top: 0;
-  left: 0;
+  left: 0%;
   right: 0;
-  padding-top: 1%;
+  padding-top: 3%;
   margin-top: 0;
   height: 10%;
   background-color: gray;
   text-align: center;
-  font-family: titulos;
+  font-family: titulos-texto;
+  font-size: 25px;
 }
 
 .Tituloescritorio{
@@ -236,8 +236,16 @@ p{
   padding-top: 1%;
   margin-top: 0;
   height: 10%;
+  font-family: titulos-texto;
 }
 
 .secciones{
   padding-left: .4%;
+}
+
+.separador{
+  border: 30px solid white;
+  width: 100%;
+  background-color: white;
+  color: white;
 }
