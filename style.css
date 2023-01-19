@@ -156,6 +156,7 @@ p{
 
   .Autor{
     display: contents;
+    margin-bottom: 20px;
   }
 
   .TxtAutor{
