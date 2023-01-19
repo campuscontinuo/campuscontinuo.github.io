@@ -41,6 +41,7 @@ p{
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
+  text-align: justify;
   width: 33.3%;
   padding: 10px;
   height: 500px;
@@ -52,4 +53,33 @@ p{
   content: "";
   display: table;
   clear: both;
+}
+
+.Autor {
+  display: flex;
+  width: 100%;
+  margin: 1rem;
+  margin-left: 10px;
+  padding: 0rem 0rem;
+  text-align: justify;
+
+}
+
+.ImgAutor {
+  padding: 0px;
+  float: left;
+  display: inline-block;
+  width: 20%;
+}
+
+.TxtAutor {
+  padding: 0px;
+  float: left;
+  display: inline-block;
+  color: #FFFFFF;
+  width: 30%;
+}
+
+.Nombre{
+  margin-top: 0px;
 }
