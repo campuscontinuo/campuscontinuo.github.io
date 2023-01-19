@@ -117,3 +117,126 @@ p{
   background: #e1e1e1;
   border: 2px solid black;
 }
+
+.Secmovil{
+  background-color: gray;
+}
+
+@media only screen and (min-width: 600px){
+
+  .Titulomovil{
+    display: none;
+  }
+
+  main{
+    display: none;
+  }
+
+  nav{
+    display: none;
+  }
+
+  .Contmovil{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body{
+    background-color: #ffffff;
+  }
+
+  .Tituloescritorio{
+    display: none;
+  }
+
+  .column{
+    display: none;
+  }
+
+  .Autor{
+    display: contents;
+  }
+
+  .TxtAutor{
+    display:block;
+    width: 90%;
+  }
+
+  .ImgAutor{
+    display: block;
+    width: 90%;
+  }
+
+}
+
+nav {
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+a {
+  float: left;
+}
+
+a {
+  font-family: parrafos;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width: 33.3%;
+}
+
+a:hover {
+  background-color: #111;
+}
+
+main div {
+  display: none;
+  padding: 20px;
+}
+
+.active {
+  display: block;
+}
+
+p{
+  text-align: justify;
+}
+
+.Titulomovil{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: 1%;
+  margin-top: 0;
+  height: 10%;
+  background-color: gray;
+  text-align: center;
+  font-family: titulos;
+}
+
+.Tituloescritorio{
+  position: absolute;
+  top: 0;
+  left: 1%;
+  right: 0;
+  padding-top: 1%;
+  margin-top: 0;
+  height: 10%;
+}
+
+.secciones{
+  padding-left: .4%;
+}
