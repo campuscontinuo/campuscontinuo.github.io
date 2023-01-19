@@ -85,7 +85,7 @@ p{
   margin-top: 0px;
 }
 
-.seccion {
+.seccion{
   display: inline-block;
   color: #FFFFFF;
   width: 33%;
@@ -105,12 +105,13 @@ p{
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  width: 10px;
   background: #FFFFFF;
   border: 2px solid black;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #100011;
+  width: 10px;
+  background: #e1e1e1;
+  border: 2px solid black;
 }
