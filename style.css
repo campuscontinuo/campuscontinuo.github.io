@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: parrafos;
-  src: url(Fonts/Arvo-Regular.ttf);
+  src: url(Fonts/DarkerGrotesque-Regular.ttf);
 }
 
 @font-face {
@@ -14,7 +14,7 @@
 }
 
 body{
-  background-color: #333333;
+  background: linear-gradient(94deg, rgba(0,0,0,1) 0%, rgba(106,105,105,1) 100%);
   overflow-x:hidden;
 }
 
@@ -33,6 +33,11 @@ h3{
 
 p{
   font-family: parrafos;
+  font-size: 19px;
+}
+
+.row{
+  border: 2px solid white;
 }
 
 * {
@@ -63,9 +68,9 @@ p{
   margin-left: 10px;
   padding: 0rem 0rem;
   text-align: justify;
-  background-color: #c0c0c0;
-  border-bottom: 10px solid #333333;
-  border-right: 20px solid #333333;
+  background-color: #FFFFFF;
+  border-bottom: 10px solid transparent;
+  border-right: 20px solid #656464;
 }
 
 .ImgAutor {
@@ -101,21 +106,19 @@ p{
 /* Track */
 ::-webkit-scrollbar-track {
   width: 10px;
-  background: #ffffff;
-  border: 4px solid #333333;
+  background: #000000;
+  border: 4px solid #FFFFFF;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #FFFFFF;
-  border: 2px solid black;
+  background: #000000;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   width: 10px;
   background: #e1e1e1;
-  border: 2px solid black;
 }
 
 .Secmovil{
@@ -159,6 +162,10 @@ p{
   }
 
   .Tituloescritorio{
+    display: none;
+  }
+
+  .secciones{
     display: none;
   }
 
@@ -218,6 +225,10 @@ main div {
   padding: 20px;
 }
 
+main{
+  background-color: #FFFFFF;
+}
+
 .active {
   display: block;
 }
@@ -248,8 +259,10 @@ p{
   right: 0;
   padding-top: 1%;
   margin-top: 0;
-  height: 10%;
+  height: 9%;
   font-family: titulos-texto;
+  border-bottom: 2px solid white;
+  width: 28%;
 }
 
 .secciones{
