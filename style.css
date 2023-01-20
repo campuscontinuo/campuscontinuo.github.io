@@ -224,18 +224,21 @@ p{
 }
 
 .Titulomovil{
-  position: fixed;
-  top: 0;
-  left: 0%;
-  right: 0;
-  padding-top: 3%;
-  margin-top: 0;
-  height: 10%;
-  background-color: gray;
+  color: white;
+  position: block;
+  padding: 20px;
   text-align: center;
   font-family: titulos-texto;
   font-size: 25px;
-  align-content: center;
+  text-decoration: underline;
+}
+
+.cajaheadermovil{
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
 }
 
 .Tituloescritorio{
