@@ -61,37 +61,6 @@ p{
   clear: both;
 }
 
-.Autor {
-  display: flex;
-  width: 100%;
-  margin: 1rem;
-  margin-left: 10px;
-  padding: 0rem 0rem;
-  text-align: justify;
-  background-color: #FFFFFF;
-  border-bottom: 10px solid transparent;
-  border-right: 20px solid #656464;
-}
-
-.ImgAutor {
-  padding: 10px;
-  float: left;
-  display: inline-block;
-  width: 20%;
-}
-
-.TxtAutor {
-  padding: 10px;
-  float: left;
-  display: inline-block;
-  color: #333333;
-  width: 30%;
-}
-
-.Nombre{
-  margin-top: 0px;
-}
-
 .seccion{
   display: inline-block;
   color: #FFFFFF;
@@ -143,48 +112,26 @@ p{
     display: none;
   }
 
-  .separador{
-      display: none;
-  }
-
-  .TxtAutor{
-    width: 60%;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  body{
-    background-color: #ffffff;
-  }
-
-  .separador{
-      display: inline-block;
-  }
-
-  .Tituloescritorio{
-    display: none;
-  }
-
-  .secciones{
-    display: none;
-  }
-
-  .column{
-    display: none;
-  }
-
   .Autor{
-    display: contents;
+    display: flex;
+    background-color: white;
+    margin-top: 20px;
   }
 
-  .TxtAutor{
-    display:block;
-    width: 90%;
+  .fotoautor{
+    width: 100%;
   }
 
   .ImgAutor{
-    display: block;
-    width: 90%;
+    width: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .TxtAutor{
+    margin-left: 20px;
+    width: 80%;
   }
 
 }
@@ -231,6 +178,45 @@ main{
 
 .active {
   display: block;
+}
+
+@media only screen and (max-width: 600px) {
+  body{
+    background-color: #ffffff;
+  }
+
+  .Tituloescritorio{
+    display: none;
+  }
+
+  .secciones{
+    display: none;
+  }
+
+  .column{
+    display: none;
+  }
+
+  .Autor{
+    background-color: white;
+    display: block;
+    margin-bottom: 100px;
+  }
+
+  .fotoautor{
+    width: 60%;
+  }
+
+  .ImgAutor{
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+
+  .TxtAutor{
+    padding: 20px;
+  }
+
+  }
 }
 
 p{

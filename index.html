@@ -18,7 +18,7 @@
     <a data-id="1">Bitácora</a>
     <a data-id="2" style="padding-left: 3%;">Proyectos</a>
     <a data-id="3">Recortes</a>
-  </nav>
+    </nav>
 
     <main>
       <div class="active">
@@ -71,7 +71,7 @@
       </div>
     </main>
 
-    <script>
+<script>
 document.querySelectorAll('nav a')
   .forEach(e => e.addEventListener('click', _ => change(e.dataset.id)))
 
@@ -149,16 +149,14 @@ function change(n) {
 <!-- Termina contenido para escritorio -->
 
 <!-- Contenido de Autor aparece en escritorio y móvil -->
-<div class="Autor" style="background-color: #FFFFFF;">
-<div class="ImgAutor" style="background-color: #FFFFFF; width: 100%;">
-<img src="Images/Archivelio.jpg" width="95%">
+<div class="Autor">
+<div class="ImgAutor">
+<img class="fotoautor" src="Images/Archivelio.jpg">
 </div>
 
-<div class="TxtAutor" style="background-color: #FFFFFF; width: 100%;">
+<div class="TxtAutor">
 <h2 class="Nombre">Galgo Siroco</h2>
-<p color="#FFFFFF" background="#c0c0c0">Santiago 1999. Escritor, poeta, egresado de Periodismo. Este es un proyecto inspirado en las propuestas de Kenneth Goldsmith acerca de la escritura no-creativa, ante las transformaciones lingüísticas impuestas por la web. Campus Continuo es un proyecto que busca aunar constataciones acerca de lo materialmente inmediato, recortes/plagios de lecturas de toda naturaleza y textos originales. </p>
-</div>
-<div class="separador"></div>
+<p>Santiago 1999. Escritor, poeta, egresado de Periodismo. Este es un proyecto inspirado en las propuestas de Kenneth Goldsmith acerca de la escritura no-creativa, ante las transformaciones lingüísticas impuestas por la web. Campus Continuo es un proyecto que busca aunar constataciones acerca de lo materialmente inmediato, recortes/plagios de lecturas de toda naturaleza y textos originales. </p>
 </div>
 <!-- Contenido de Autor aparece en escritorio y móvil -->
 </body>
